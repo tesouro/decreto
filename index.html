@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,300i,400,400i,500,500i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Acompanhamento do Decreto</title>
+</head>
+<body>
+    <header class="logo">
+        <img class="logo-tt" src="tt-logo-int.png" alt="logo do Tesouro Nacional Transparente">
+    </header>
+    <main class="limited-width">
+        <header id="abertura">
+            <h1>Acompanhamento do Decreto de Programação Financeira</h1>
+            <p>Com base em dados do Siafi</p>
+        </header>
+
+        <section class="quadro">
+            <div class="mini-header">
+                <div class="selecao-entidades">
+                    <select name="menu-orgao" id="menu-orgao">
+                        <option value="">--Escolha um órgão--</option>
+                    </select>
+    
+                    <select name="menu-mes" id="menu-mes">
+                        <option value="">--Escolha um mês--</option>
+                    </select>
+                </div>
+            </div>
+            <div id="anexos">
+                <div class="anexo anexo2">
+                    <p class="titulo-card"><span>Anexo II</span> Discricionárias, Fontes Tesouro</p>
+                    <div class="container-svg">
+                        <svg></svg>
+                    </div>
+                </div>
+                <div class="anexo anexo3">
+                    <p class="titulo-card"><span>Anexo III</span> Discricionárias, Fontes Próprias</p>
+                    <div class="container-svg">
+                        <svg></svg>
+                    </div>
+                </div>                
+                <div class="anexo anexo4">
+                    <p class="titulo-card"><span>Anexo IV</span> PAC</p>
+                    <div class="container-svg">
+                        <svg></svg>
+                    </div>
+                </div>
+            </div>
+        </section>    
+</body>
+<script src="d3.v5.min.js"></script>
+<script src="visualizacao.js"></script>  
+</html>

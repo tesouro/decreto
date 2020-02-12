@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke; /* lightcyan */
+    color: #444;
+    /*font-size: 0.9rem;*/
+}
+
+header.logo {
+    width: 100%;
+    background-color: teal;
+    padding: 10px;
+    box-shadow: 0 0 5px 1px teal;
+    margin: 0;
+}
+
+header img.logo-tt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.limited-width {
+    max-width: 680px;
+    margin: 0 auto;    
+}
+
+main {
+    padding: 0 5px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* main header#abertura {
+    font-family: 'Alegreya Sans', serif;
+    margin-left: 1rem;
+} */
+
+main header#abertura h1 {
+    text-align: left;
+    font-size: 1.3rem;
+    color: teal; /*#E32C10; teal*/
+    line-height: 1.3;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+}
+
+main header#abertura p {
+    font-weight: 100;
+    text-align: left;
+    font-size: 1rem;
+    color: teal; /*#E32C10; teal*/
+    line-height: 1.5;
+    max-width: 400px;
+    margin-top: 0;
+}
+
+section.quadro {
+    max-width: 680px;
+    margin auto 0;
+}
+
+section.quadro div.selecao-entidades {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    flex-wrap: wrap;
+}
+
+section.quadro div.selecao-entidades select {
+    padding: 6px 12px;
+    font-family: "Alegreya Sans";
+    font-size: 0.65em;
+    border-radius: 4px;
+    margin: 1em 2em;
+}
+
+section.quadro p.titulo-card {
+    margin-bottom: 0;
+    margin-top: 1rem;
+    padding-bottom: 8px;
+    font-size: 0.8rem;
+    max-width: 900px;
+}
+
+section.quadro p.titulo-card span {
+    border-width: 3px;
+    padding: 10px;
+    color: ghostwhite;
+    background-color: teal;
+
+}
+
+section.quadro div.container-svg {
+    /* padding: 10px; */
+    border: 3px solid teal;
+    position: relative;
+}
+
+section.quadro div.container-svg p.aviso {
+    font-style: italic;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: crimson;
+}
+
+section.quadro div.container-svg svg rect.dashed {
+    stroke-dasharray: 3 2;
+    stroke: grey;
+    fill: transparent;
+}
+
+section.quadro div.container-svg p.label {
+    position: absolute;
+    text-align: right;
+    font-size: 12px;
+
+}
